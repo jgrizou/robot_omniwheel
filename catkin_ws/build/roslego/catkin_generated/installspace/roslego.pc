@@ -1,0 +1,6 @@
+Name: roslego
+Description: Description of roslego
+Version: 0.0.0
+Cflags: -I/home/jgrizou/workspace/code/lego/catkin_ws/install/include
+Libs: -L/home/jgrizou/workspace/code/lego/catkin_ws/install/lib 
+Requires: 

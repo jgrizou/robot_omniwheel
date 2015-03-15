@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "rosserial_python")
+set(rosserial_python_MAINTAINER "Michael Ferguson <mferguson@willowgarage.com>")
+set(rosserial_python_DEPRECATED "")
+set(rosserial_python_VERSION "0.4.4")
+set(rosserial_python_BUILD_DEPENDS )
+set(rosserial_python_RUN_DEPENDS "rospy" "rosserial_msgs" "diagnostic_msgs" "python-serial")
+set(rosserial_python_BUILDTOOL_DEPENDS "catkin")

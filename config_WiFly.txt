@@ -1,0 +1,59 @@
+configuring the WiFly: (connect to the WiFly to the computer using a us to serial)
+
+-use $$$ (without carriage return) to enter cmd mode (for all other command use a carriage return)
+
+- if you get lost, reset: factory RESET
+
+- to scan network: scan
+
+<2.38> 
+SCAN:Found 5
+Num            SSID   Ch  RSSI   Sec    MAC Address	Suites
+ 1          Bbox-17FAE2 01 -67 WPA2PSK 00:1f:9f:c1:41:e3 AESM-TKIP  WPS 1104
+ 2            NEUF_E4A8 03 -74   WPAv1 30:7e:cb:52:e4:ac AES/TKIPM-TKIP  WPSPB 1100
+ 3      SFR WiFi Mobile 03 -73    Open 9a:7e:cb:52:e4:af AESM-AES   1100
+ 4      SFR WiFi Public 03 -73    Open 9a:7e:cb:52:e4:ad     104
+ 5       AUCHANBOX-9CF8 11 -49     WEP 90:4c:e5:54:83:c6    1104
+
+you can find your network, the channel, the authentification method, and the MAC address to setup a static IP in your router, i.e. for #5, AUCHANBOX-9CF8, channel 11, WEP, 90:4c:e5:54:83:c6
+
+- you must set the network proterty for the WiFly to connect automatically 
+
+- visualize the current setup: get wlan & get ip
+
+config, see doc page 24 - 27
+-if WEP
+set wlan auth 1
+set wlan ssid <SSID to connect>
+set wlan key <security key/password>
+set wlan join 1
+set wlan channel <the channel 1-13>
+set ip dhcp 1
+
+-if WPA2
+set wlan auth 4
+set wlan ssid <SSID to connect>
+set wlan phrase <security key/password>
+set wlan join 1
+set wlan channel <the channel 1-13>
+set ip dhcp 1
+
+you can also create your own network using set wlan join 4 (see doc page 25)
+
+-save the changes: save
+
+-restart to apply: reboot
+
+if it work you will see somewhere:
+...
+Associated!
+DHCP: Start
+...
+Listen on 2000
+
+
+
+https://www.sparkfun.com/tutorials/158
+http://www.homebrew-tech.com/arduino/brewing-arduino-announcement/wiflyxbeewithwifiusingarduinoserialinterface
+https://forum.sparkfun.com/viewtopic.php?f=13&t=21058
+

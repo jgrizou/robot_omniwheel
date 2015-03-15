@@ -1,0 +1,6 @@
+sample of command to add to the .bashrc file
+
+source /opt/ros/groovy/setup.bash
+source /home/jgrizou/workspace/code/lego/catkin_ws/devel/setup.bash
+source /home/jgrizou/workspace/code/lego/catkin_ws/install/setup.bash
+export EDITOR='gvim'

@@ -1,0 +1,20 @@
+computer side, just install ROS and learn what it is if needed:
+
+http://ros.org/wiki/groovy/Installation/
+http://ros.org/wiki/ROS/Tutorials
+
+install ros arduino IDE
+http://ros.org/wiki/rosserial_arduino/Tutorials/Arduino%20IDE%20Setup 
+
+then start with this :http://ros.org/wiki/rosserial_arduino/Tutorials/Hello%20World
+
+###
+and then it become more complicated: http://ros.org/wiki/ROS/Tutorials/MultipleMachines
+think of changing the baudrate of the wifly!! (set uart baud 57600   see p.21)
+the problem is that rosserial must use a serial port and can not go over the network.
+To do so you can create a virtual serial port and connect to it, this fake serial would redirect all the message to the Wifly module knowing it address. Then on the arduino side, it is totally transparent as it is all converted to serial thanks to the WiFly.
+###
+
+TO create your own message arduino header regenrate the all ros_lib folder in your <sketchbook>/libraries using:
+rosrun rosserial_arduino make_library.py <sketchbook>/libraries
+

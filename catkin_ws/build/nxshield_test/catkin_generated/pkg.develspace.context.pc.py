@@ -1,0 +1,7 @@
+CATKIN_PACKAGE_PREFIX=""
+PROJECT_ABSOLUTE_INCLUDE_DIRS="/home/jgrizou/workspace/code/lego/catkin_ws/src/nxshield_test/include"
+PROJECT_CATKIN_DEPENDS=""
+PKG_CONFIG_LIBRARIES_WITH_PREFIX=""
+PROJECT_NAME="nxshield_test"
+PROJECT_SPACE_DIR="/home/jgrizou/workspace/code/lego/catkin_ws/devel"
+PROJECT_VERSION="0.0.0"

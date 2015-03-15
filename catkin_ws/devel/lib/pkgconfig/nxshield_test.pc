@@ -1,0 +1,6 @@
+Name: nxshield_test
+Description: Description of nxshield_test
+Version: 0.0.0
+Cflags: -I/home/jgrizou/workspace/code/lego/catkin_ws/src/nxshield_test/include
+Libs: -L/home/jgrizou/workspace/code/lego/catkin_ws/devel/lib 
+Requires: 

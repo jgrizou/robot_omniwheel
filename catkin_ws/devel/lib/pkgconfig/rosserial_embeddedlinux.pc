@@ -1,0 +1,6 @@
+Name: rosserial_embeddedlinux
+Description: Description of rosserial_embeddedlinux
+Version: 0.4.4
+Cflags: -I
+Libs: -L/home/jgrizou/workspace/code/lego/catkin_ws/devel/lib 
+Requires: 

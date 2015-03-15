@@ -1,0 +1,6 @@
+Name: rosserial_arduino
+Description: Description of rosserial_arduino
+Version: 0.4.4
+Cflags: -I/home/jgrizou/workspace/code/lego/catkin_ws/devel/include
+Libs: -L/home/jgrizou/workspace/code/lego/catkin_ws/devel/lib 
+Requires: message_runtime

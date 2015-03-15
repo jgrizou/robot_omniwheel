@@ -1,0 +1,6 @@
+Name: rosserial_client
+Description: Description of rosserial_client
+Version: 0.4.4
+Cflags: -I
+Libs: -L/home/jgrizou/workspace/code/lego/catkin_ws/install/lib 
+Requires: 

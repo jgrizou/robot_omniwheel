@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/jgrizou/workspace/code/lego/catkin_ws/devel/setup.sh

@@ -1,0 +1,779 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ABSIMU_H	AbsoluteIMU.h	27;"	d
+ACCLNx	ACCLNx.cpp	/^ACCLNx::ACCLNx(uint8_t i2c_address)$/;"	f	class:ACCLNx
+ACCLNx	ACCLNx.h	/^class ACCLNx : public NXShieldI2C$/;"	c
+ACCLNx_Command	ACCLNx.h	31;"	d
+ACCLNx_H	ACCLNx.h	29;"	d
+ACCLNx_X_ACCL	ACCLNx.h	37;"	d
+ACCLNx_X_TILT	ACCLNx.h	34;"	d
+ACCLNx_Y_ACCL	ACCLNx.h	38;"	d
+ACCLNx_Y_TILT	ACCLNx.h	35;"	d
+ACCLNx_Z_ACCL	ACCLNx.h	39;"	d
+ACCLNx_Z_TILT	ACCLNx.h	36;"	d
+ANGLE	AbsoluteIMU.h	31;"	d
+ANGLE	AngleSensor.h	31;"	d
+ANGLE_SENSOR_H	AngleSensor.h	27;"	d
+AS_Command	AngleSensor.h	29;"	d
+AbsoluteIMU	AbsoluteIMU.cpp	/^AbsoluteIMU::AbsoluteIMU(uint8_t i2c_address)$/;"	f	class:AbsoluteIMU
+AbsoluteIMU	AbsoluteIMU.h	/^class AbsoluteIMU : public NXShieldI2C$/;"	c
+AngleSensor	AngleSensor.cpp	/^AngleSensor::AngleSensor(uint8_t i2c_address)$/;"	f	class:AngleSensor
+AngleSensor	AngleSensor.h	/^class AngleSensor : public NXShieldI2C$/;"	c
+BASEI2CDEVICE_H	BaseI2CDevice.h	32;"	d
+BCDToInteger	RTC.cpp	/^uint8_t RTC::BCDToInteger(uint8_t b)$/;"	f	class:RTC
+BS1_Button_Down	PSPNx.h	54;"	d
+BS1_Button_L3	PSPNx.h	49;"	d
+BS1_Button_Left	PSPNx.h	55;"	d
+BS1_Button_R3	PSPNx.h	50;"	d
+BS1_Button_Right	PSPNx.h	53;"	d
+BS1_Button_Select	PSPNx.h	48;"	d
+BS1_Button_Start	PSPNx.h	51;"	d
+BS1_Button_Up	PSPNx.h	52;"	d
+BS2_Button_Circle	PSPNx.h	44;"	d
+BS2_Button_Cross	PSPNx.h	45;"	d
+BS2_Button_L1	PSPNx.h	41;"	d
+BS2_Button_L2	PSPNx.h	39;"	d
+BS2_Button_R1	PSPNx.h	42;"	d
+BS2_Button_R2	PSPNx.h	40;"	d
+BS2_Button_Square	PSPNx.h	46;"	d
+BS2_Button_Triangle	PSPNx.h	43;"	d
+BTN_GO	SHDefines.h	78;"	d
+BTN_GO	SHDefines.h	95;"	d
+BTN_LEFT	SHDefines.h	76;"	d
+BTN_LEFT	SHDefines.h	94;"	d
+BTN_RIGHT	SHDefines.h	77;"	d
+BTN_RIGHT	SHDefines.h	96;"	d
+BUFFER_LEN	BaseI2CDevice.cpp	/^const int BUFFER_LEN = 16;  $/;"	v
+BUFF_LEN	SoftI2cMaster.cpp	/^const int BUFF_LEN = 16;$/;"	v
+BaseI2CDevice	BaseI2CDevice.cpp	/^BaseI2CDevice::BaseI2CDevice(uint8_t i2c_address)$/;"	f	class:BaseI2CDevice
+BaseI2CDevice	BaseI2CDevice.h	/^class BaseI2CDevice$/;"	c
+Cam_Command	NXTCam.h	31;"	d
+Cam_Number_Objects	NXTCam.h	32;"	d
+DISTNx	DISTNx.cpp	/^DISTNx::DISTNx(uint8_t i2c_address)$/;"	f	class:DISTNx
+DISTNx	DISTNx.h	/^class DISTNx : public NXShieldI2C$/;"	c
+DISTNx_Command	DISTNx.h	33;"	d
+DISTNx_Distance	DISTNx.h	34;"	d
+DISTNx_H	DISTNx.h	31;"	d
+DISTNx_SensorType	DISTNx.h	36;"	d
+DISTNx_Voltage	DISTNx.h	35;"	d
+GetKeyPress	NumericPad.cpp	/^bool NumericPad::GetKeyPress(int waitPeriod\/* seconds *\/, byte &keyHolder)$/;"	f	class:NumericPad
+GetKeysPressed	NumericPad.cpp	/^int NumericPad::GetKeysPressed ()$/;"	f	class:NumericPad
+Group1	NumericPad.cpp	/^byte Group1[] = {0x01, 0x01, 0x00, 0x00, 0x01, 0x01, 0xFF, 0x02};$/;"	v
+Group2	NumericPad.cpp	/^byte Group2[] = {0x0F, 0x0A, 0x0F, 0x0A, 0x0F, 0x0A, 0x0F, 0x0A, 0x0F};$/;"	v
+Group3	NumericPad.cpp	/^byte Group3[] = {0x0A, 0x0F, 0x0A, 0x0F, 0x0A, 0x0F, 0x0A, 0x0F};$/;"	v
+Group4	NumericPad.cpp	/^byte Group4[] = {0x0A, 0x0F, 0x0A, 0x0F, 0x0A, 0x0F, 0x0A, 0x0F};$/;"	v
+Group5	NumericPad.cpp	/^byte Group5[] = {0x0b, 0x20, 0x0C};$/;"	v
+Group6	NumericPad.cpp	/^byte Group6[] = {0x9C, 0x65, 0x8C};$/;"	v
+Group7	NumericPad.cpp	/^byte Group7[] = {0x0B};$/;"	v
+HID_Command	NXTHID.h	31;"	d
+HID_Keyboard	NXTHID.h	34;"	d
+HID_L_Alt	NXTHID.h	39;"	d
+HID_L_Ctrl	NXTHID.h	37;"	d
+HID_L_GUI	NXTHID.h	40;"	d
+HID_L_Shift	NXTHID.h	38;"	d
+HID_Modifier	NXTHID.h	32;"	d
+HID_None	NXTHID.h	36;"	d
+HID_R_Alt	NXTHID.h	43;"	d
+HID_R_Ctrl	NXTHID.h	41;"	d
+HID_R_GUI	NXTHID.h	44;"	d
+HID_R_Shift	NXTHID.h	42;"	d
+HID_Text	NXTHID.h	33;"	d
+I2C_DELAY_USEC	SoftI2cMaster.h	31;"	d
+I2C_READ	SoftI2cMaster.h	34;"	d
+I2C_WRITE	SoftI2cMaster.h	35;"	d
+IMU_Command	AbsoluteIMU.h	29;"	d
+ISR	MsTimer2.cpp	/^ISR(TIMER2_OVF_vect) {$/;"	f
+InitializeKeypad	NumericPad.cpp	/^void NumericPad::InitializeKeypad() $/;"	f	class:NumericPad
+KEY_STATUS_REG	NumericPad.cpp	/^uint8_t KEY_STATUS_REG = 0x00;$/;"	v
+LED_BLUE	SHDefines.h	81;"	d
+LED_BLUE	SHDefines.h	99;"	d
+LED_GREEN	SHDefines.h	80;"	d
+LED_GREEN	SHDefines.h	98;"	d
+LED_RED	SHDefines.h	79;"	d
+LED_RED	SHDefines.h	97;"	d
+LineLeader	LineLeader.cpp	/^LineLeader::LineLeader(uint8_t i2c_address)$/;"	f	class:LineLeader
+LineLeader	LineLeader.h	/^class LineLeader : public NXShieldI2C$/;"	c
+LineLeader_Average	LineLeader.h	41;"	d
+LineLeader_Black_Calibration	LineLeader.h	36;"	d
+LineLeader_Black_Limit	LineLeader.h	34;"	d
+LineLeader_Command	LineLeader.h	39;"	d
+LineLeader_H	LineLeader.h	29;"	d
+LineLeader_Kd	LineLeader.h	46;"	d
+LineLeader_Kd_Factor	LineLeader.h	49;"	d
+LineLeader_Ki	LineLeader.h	45;"	d
+LineLeader_Ki_Factor	LineLeader.h	48;"	d
+LineLeader_Kp	LineLeader.h	44;"	d
+LineLeader_Kp_Factor	LineLeader.h	47;"	d
+LineLeader_Raw_Calibrated	LineLeader.h	31;"	d
+LineLeader_Raw_Uncalibrated	LineLeader.h	32;"	d
+LineLeader_Result	LineLeader.h	42;"	d
+LineLeader_SetPoint	LineLeader.h	43;"	d
+LineLeader_Steering	LineLeader.h	40;"	d
+LineLeader_White_Calibration	LineLeader.h	35;"	d
+LineLeader_White_Limit	LineLeader.h	33;"	d
+MMX_CMD_A_M1	NXTMMX.h	48;"	d
+MMX_CMD_A_M2	NXTMMX.h	54;"	d
+MMX_CMD_B_M1	NXTMMX.h	47;"	d
+MMX_CMD_B_M2	NXTMMX.h	53;"	d
+MMX_COMMAND	NXTMMX.h	41;"	d
+MMX_CONTROL_BRK	NXTMMX.h	36;"	d
+MMX_CONTROL_GO	NXTMMX.h	39;"	d
+MMX_CONTROL_ON	NXTMMX.h	37;"	d
+MMX_CONTROL_RAMP	NXTMMX.h	33;"	d
+MMX_CONTROL_RELATIVE	NXTMMX.h	34;"	d
+MMX_CONTROL_SPEED	NXTMMX.h	32;"	d
+MMX_CONTROL_TACHO	NXTMMX.h	35;"	d
+MMX_CONTROL_TIME	NXTMMX.h	38;"	d
+MMX_Completion_Dont_Wait	NXTMMX.h	102;"	d
+MMX_Completion_Wait_For	NXTMMX.h	101;"	d
+MMX_Direction_Forward	NXTMMX.h	92;"	d
+MMX_Direction_Reverse	NXTMMX.h	93;"	d
+MMX_ENCODER_PID	NXTMMX.h	66;"	d
+MMX_Motor_1	NXTMMX.h	75;"	d
+MMX_Motor_2	NXTMMX.h	76;"	d
+MMX_Motor_Both	NXTMMX.h	77;"	d
+MMX_Move_Absolute	NXTMMX.h	99;"	d
+MMX_Move_Relative	NXTMMX.h	98;"	d
+MMX_Next_Action_Brake	NXTMMX.h	85;"	d
+MMX_Next_Action_BrakeHold	NXTMMX.h	87;"	d
+MMX_Next_Action_Float	NXTMMX.h	83;"	d
+MMX_PASS_COUNT	NXTMMX.h	68;"	d
+MMX_POSITION_M1	NXTMMX.h	59;"	d
+MMX_POSITION_M2	NXTMMX.h	60;"	d
+MMX_SETPT_M1	NXTMMX.h	44;"	d
+MMX_SETPT_M2	NXTMMX.h	50;"	d
+MMX_SPEED_M1	NXTMMX.h	45;"	d
+MMX_SPEED_M2	NXTMMX.h	51;"	d
+MMX_SPEED_PID	NXTMMX.h	67;"	d
+MMX_STATUS_M1	NXTMMX.h	61;"	d
+MMX_STATUS_M2	NXTMMX.h	62;"	d
+MMX_Speed_Full	NXTMMX.h	108;"	d
+MMX_Speed_Medium	NXTMMX.h	109;"	d
+MMX_Speed_Slow	NXTMMX.h	110;"	d
+MMX_TASKS_M1	NXTMMX.h	63;"	d
+MMX_TASKS_M2	NXTMMX.h	64;"	d
+MMX_TIME_M1	NXTMMX.h	46;"	d
+MMX_TIME_M2	NXTMMX.h	52;"	d
+MMX_TOLERANCE	NXTMMX.h	69;"	d
+MMX_VOLTAGE	NXTMMX.h	42;"	d
+MODEL_NXSHIELD_D	SHDefines.h	30;"	d
+MODEL_NXSHIELD_D	SHDefines.h	38;"	d
+MODEL_NXSHIELD_M	SHDefines.h	32;"	d
+MODEL_NXSHIELD_M	SHDefines.h	40;"	d
+MagicWand	MagicWand.cpp	/^MagicWand::MagicWand(uint8_t i2c_address) : NXShieldI2C(i2c_address)$/;"	f	class:MagicWand
+MagicWand	MagicWand.h	/^class MagicWand : public NXShieldI2C$/;"	c
+MagicWand_H	MagicWand.h	23;"	d
+MagicWand_WR_Register	MagicWand.h	26;"	d
+MsTimer2	MsTimer2.h	/^namespace MsTimer2 {$/;"	n
+MsTimer2_h	MsTimer2.h	3;"	d
+NXShield	NXShield.cpp	/^NXShield::NXShield(uint8_t i2c_address_a, uint8_t i2c_address_b)$/;"	f	class:NXShield
+NXShield	NXShield.h	/^class NXShield$/;"	c
+NXShieldAGS	NXShieldAGS.cpp	/^NXShieldAGS::NXShieldAGS()$/;"	f	class:NXShieldAGS
+NXShieldAGS	NXShieldAGS.cpp	/^NXShieldAGS::NXShieldAGS(NXShield * shield, SH_BankPort bp)$/;"	f	class:NXShieldAGS
+NXShieldAGS	NXShieldAGS.h	/^class NXShieldAGS$/;"	c
+NXShieldAGS_H	NXShieldAGS.h	23;"	d
+NXShieldBank	NXShield.cpp	/^NXShieldBank::NXShieldBank(uint8_t i2c_address)$/;"	f	class:NXShieldBank
+NXShieldBank	NXShield.h	/^class NXShieldBank : public NXShieldI2C$/;"	c
+NXShieldBankB	NXShield.cpp	/^NXShieldBankB::NXShieldBankB(uint8_t i2c_address)$/;"	f	class:NXShieldBankB
+NXShieldBankB	NXShield.h	/^class NXShieldBankB : public NXShieldBank$/;"	c
+NXShieldI2C	NXShieldI2C.cpp	/^NXShieldI2C::NXShieldI2C(uint8_t i2c_address)$/;"	f	class:NXShieldI2C
+NXShieldI2C	NXShieldI2C.h	/^class NXShieldI2C : public BaseI2CDevice, public SoftI2cMaster$/;"	c
+NXShieldI2C_H	NXShieldI2C.h	23;"	d
+NXShield_H	NXShield.h	59;"	d
+NXTCam	NXTCam.cpp	/^NXTCam::NXTCam(uint8_t i2c_address)$/;"	f	class:NXTCam
+NXTCam	NXTCam.h	/^class NXTCam : public NXShieldI2C$/;"	c
+NXTCam_H	NXTCam.h	29;"	d
+NXTHID	NXTHID.cpp	/^NXTHID::NXTHID(uint8_t i2c_address)$/;"	f	class:NXTHID
+NXTHID	NXTHID.h	/^class NXTHID : public NXShieldI2C$/;"	c
+NXTHID_H	NXTHID.h	29;"	d
+NXTLIGHT_H	NXTLight.h	24;"	d
+NXTLight	NXTLight.h	/^class NXTLight : public NXShieldAGS$/;"	c
+NXTMMX	NXTMMX.cpp	/^NXTMMX::NXTMMX(uint8_t i2c_address)$/;"	f	class:NXTMMX
+NXTMMX	NXTMMX.h	/^class NXTMMX : public NXShieldI2C$/;"	c
+NXTMMX_H	NXTMMX.h	28;"	d
+NXTPowerMeter	NXTPowerMeter.cpp	/^NXTPowerMeter::NXTPowerMeter(uint8_t i2c_address)$/;"	f	class:NXTPowerMeter
+NXTPowerMeter	NXTPowerMeter.h	/^class NXTPowerMeter : public NXShieldI2C$/;"	c
+NXTPowerMeter_Capacity_Used	NXTPowerMeter.h	34;"	d
+NXTPowerMeter_Command	NXTPowerMeter.h	31;"	d
+NXTPowerMeter_Elapsed_Time	NXTPowerMeter.h	35;"	d
+NXTPowerMeter_H	NXTPowerMeter.h	29;"	d
+NXTPowerMeter_Present_Current	NXTPowerMeter.h	32;"	d
+NXTPowerMeter_Present_Voltage	NXTPowerMeter.h	33;"	d
+NXTServo	NXTServo.cpp	/^NXTServo::NXTServo(uint8_t i2c_address)$/;"	f	class:NXTServo
+NXTServo	NXTServo.h	/^class NXTServo : public NXShieldI2C$/;"	c
+NXTServo_H	NXTServo.h	28;"	d
+NXTTOUCH_H	NXTTouch.h	23;"	d
+NXTTouch	NXTTouch.h	/^class NXTTouch : public NXShieldAGS$/;"	c
+NXTUS	NXTUS.cpp	/^NXTUS::NXTUS(uint8_t i2c_address) : SoftI2cMaster(i2c_address)$/;"	f	class:NXTUS
+NXTUS	NXTUS.h	/^class NXTUS : public SoftI2cMaster$/;"	c
+NXTUS_Command	NXTUS.h	28;"	d
+NXTUS_Distance	NXTUS.h	29;"	d
+NXTUS_H	NXTUS.h	23;"	d
+NumericPad	NumericPad.cpp	/^NumericPad::NumericPad(uint8_t i2c_address)$/;"	f	class:NumericPad
+NumericPad	NumericPad.h	/^class NumericPad : public NXShieldI2C$/;"	c
+NumericPad_H	NumericPad.h	28;"	d
+OBZoneToString	SumoEyes.cpp	/^char *SumoEyes::OBZoneToString(SE_Zone ob)$/;"	f	class:SumoEyes
+PFMate	PFMate.cpp	/^PFMate::PFMate(uint8_t i2c_address)$/;"	f	class:PFMate
+PFMate	PFMate.h	/^class PFMate : public NXShieldI2C$/;"	c
+PFMate_H	PFMate.h	29;"	d
+PF_Channel	PFMate.h	33;"	d
+PF_Channel_1	PFMate.h	34;"	d
+PF_Channel_2	PFMate.h	35;"	d
+PF_Channel_3	PFMate.h	36;"	d
+PF_Channel_4	PFMate.h	37;"	d
+PF_Commmand	PFMate.h	31;"	d
+PF_Contol_A	PFMate.h	41;"	d
+PF_Contol_B	PFMate.h	42;"	d
+PF_Contol_Both	PFMate.h	40;"	d
+PF_Control	PFMate.h	39;"	d
+PF_Operation_A	PFMate.h	50;"	d
+PF_Operation_B	PFMate.h	51;"	d
+PF_Operation_Brake	PFMate.h	55;"	d
+PF_Operation_Float	PFMate.h	52;"	d
+PF_Operation_Forward	PFMate.h	53;"	d
+PF_Operation_Reverse	PFMate.h	54;"	d
+PF_Speed_A	PFMate.h	44;"	d
+PF_Speed_B	PFMate.h	45;"	d
+PF_Speed_Full	PFMate.h	48;"	d
+PF_Speed_Medium	PFMate.h	47;"	d
+PF_Speed_Slow	PFMate.h	46;"	d
+PSPNx	PSPNx.cpp	/^PSPNx::PSPNx(uint8_t i2c_address)$/;"	f	class:PSPNx
+PSPNx	PSPNx.h	/^class PSPNx : public NXShieldI2C$/;"	c
+PSPNx_ButtonSet1	PSPNx.h	32;"	d
+PSPNx_ButtonSet2	PSPNx.h	33;"	d
+PSPNx_Command	PSPNx.h	31;"	d
+PSPNx_H	PSPNx.h	29;"	d
+PSPNx_XLeftJoystick	PSPNx.h	34;"	d
+PSPNx_XRightJoystick	PSPNx.h	36;"	d
+PSPNx_YLeftJoystick	PSPNx.h	35;"	d
+PSPNx_YRightJoystick	PSPNx.h	37;"	d
+RAW_READING	AbsoluteIMU.h	32;"	d
+RAW_READING	AngleSensor.h	32;"	d
+RCXLIGHT_H	RCXLight.h	24;"	d
+RCXLight	RCXLight.h	/^class RCXLight : public NXShieldAGS$/;"	c
+READ_SENS	ACCLNx.h	32;"	d
+RTC	RTC.cpp	/^RTC::RTC(uint8_t i2c_address)$/;"	f	class:RTC
+RTC	RTC.h	/^class RTC : public NXShieldI2C$/;"	c
+RTC_Day_of_Month	RTC.h	34;"	d
+RTC_Day_of_Week	RTC.h	33;"	d
+RTC_H	RTC.h	28;"	d
+RTC_Hours	RTC.h	32;"	d
+RTC_Minutes	RTC.h	31;"	d
+RTC_Month	RTC.h	35;"	d
+RTC_Seconds	RTC.h	30;"	d
+RTC_Year	RTC.h	36;"	d
+SCL_BAS1	SHDefines.h	67;"	d
+SCL_BAS1	SHDefines.h	85;"	d
+SCL_BAS2	SHDefines.h	69;"	d
+SCL_BAS2	SHDefines.h	87;"	d
+SCL_BBS1	SHDefines.h	71;"	d
+SCL_BBS1	SHDefines.h	89;"	d
+SCL_BBS2	SHDefines.h	73;"	d
+SCL_BBS2	SHDefines.h	91;"	d
+SDA_BAS1	SHDefines.h	68;"	d
+SDA_BAS1	SHDefines.h	86;"	d
+SDA_BAS2	SHDefines.h	70;"	d
+SDA_BAS2	SHDefines.h	88;"	d
+SDA_BBS1	SHDefines.h	72;"	d
+SDA_BBS1	SHDefines.h	90;"	d
+SDA_BBS2	SHDefines.h	74;"	d
+SDA_BBS2	SHDefines.h	92;"	d
+SE_Front	SumoEyes.h	/^	SE_Front,$/;"	e	enum:__anon8
+SE_Left	SumoEyes.h	/^	SE_Left,$/;"	e	enum:__anon8
+SE_None	SumoEyes.h	/^  SE_None = 0,$/;"	e	enum:__anon8
+SE_Right	SumoEyes.h	/^	SE_Right$/;"	e	enum:__anon8
+SE_Zone	SumoEyes.h	/^} SE_Zone;$/;"	t	typeref:enum:__anon8
+SHDEFINES_H	SHDefines.h	26;"	d
+SH_BAS1	SHDefines.h	/^  SH_BAS1 = 0x01,  \/*!<  Bank A Sensor Port 1 *\/$/;"	e	enum:__anon6
+SH_BAS2	SHDefines.h	/^  SH_BAS2 = 0x02,  \/*!<  Bank A Sensor Port 2 *\/$/;"	e	enum:__anon6
+SH_BBS1	SHDefines.h	/^  SH_BBS1 = 0x03,  \/*!<  Bank B Sensor Port 1 *\/$/;"	e	enum:__anon6
+SH_BBS2	SHDefines.h	/^  SH_BBS2 = 0x04   \/*!<  Bank B Sensor Port 2 *\/$/;"	e	enum:__anon6
+SH_BankPort	SHDefines.h	/^} SH_BankPort;$/;"	t	typeref:enum:__anon6
+SH_Bank_A	NXShield.h	172;"	d
+SH_Bank_B	NXShield.h	177;"	d
+SH_CMD_A_M1	NXShield.h	89;"	d
+SH_CMD_A_M2	NXShield.h	95;"	d
+SH_CMD_B_M1	NXShield.h	88;"	d
+SH_CMD_B_M2	NXShield.h	94;"	d
+SH_COMMAND	NXShield.h	82;"	d
+SH_CONTROL_BRK	NXShield.h	68;"	d
+SH_CONTROL_GO	NXShield.h	71;"	d
+SH_CONTROL_ON	NXShield.h	69;"	d
+SH_CONTROL_RAMP	NXShield.h	65;"	d
+SH_CONTROL_RELATIVE	NXShield.h	66;"	d
+SH_CONTROL_SPEED	NXShield.h	64;"	d
+SH_CONTROL_TACHO	NXShield.h	67;"	d
+SH_CONTROL_TIME	NXShield.h	70;"	d
+SH_Completion_Dont_Wait	NXShield.h	/^  SH_Completion_Dont_Wait    = 0x00,  \/*!< Don't wait for motor to finish, program will continue with next function *\/$/;"	e	enum:__anon5
+SH_Completion_Wait	NXShield.h	/^} SH_Completion_Wait;$/;"	t	typeref:enum:__anon5
+SH_Completion_Wait_For	NXShield.h	/^  SH_Completion_Wait_For     = 0x01  \/*!< Wait for motor to finish, program will wait until current function finishes it's operation *\/$/;"	e	enum:__anon5
+SH_Direction	NXShield.h	/^} SH_Direction;$/;"	t	typeref:enum:__anon3
+SH_Direction_Forward	NXShield.h	/^  SH_Direction_Forward = 0x01   \/*!< Run motor in forward direction *\/$/;"	e	enum:__anon3
+SH_Direction_Reverse	NXShield.h	/^  SH_Direction_Reverse = 0x00,   \/*!< Run motor in reverse direction *\/$/;"	e	enum:__anon3
+SH_ENCODER_PID	NXShield.h	107;"	d
+SH_HardwareI2C	SHDefines.h	/^  SH_HardwareI2C  = 0,  \/*!< It's best to use hardware i2c as it is faster, (but it does not work with Ultrasonic Sensor). *\/$/;"	e	enum:__anon7
+SH_Motor	NXShield.h	/^} SH_Motor;$/;"	t	typeref:enum:__anon1
+SH_Motor_1	NXShield.h	/^  SH_Motor_1     = 0x01,   \/*!< Choose Motor 1 for selected operation *\/$/;"	e	enum:__anon1
+SH_Motor_2	NXShield.h	/^  SH_Motor_2     = 0x02,   \/*!< Choose Motor 2 for selected operation  *\/$/;"	e	enum:__anon1
+SH_Motor_Both	NXShield.h	/^  SH_Motor_Both  = 0x03    \/*!< Choose Both Motors for selected operation *\/$/;"	e	enum:__anon1
+SH_Move	NXShield.h	/^} SH_Move;$/;"	t	typeref:enum:__anon4
+SH_Move_Absolute	NXShield.h	/^  SH_Move_Absolute = 0x00,   \/*!< Move the tach to absolute value provided *\/$/;"	e	enum:__anon4
+SH_Move_Relative	NXShield.h	/^  SH_Move_Relative = 0x01   \/*!< Move the tach relative to previous position *\/$/;"	e	enum:__anon4
+SH_Next_Action	NXShield.h	/^} SH_Next_Action;$/;"	t	typeref:enum:__anon2
+SH_Next_Action_Brake	NXShield.h	/^  SH_Next_Action_Brake = 0x01, \/*!< apply brakes, and resist change to tachometer, but if tach position is forcibly changed, do not restore position *\/$/;"	e	enum:__anon2
+SH_Next_Action_BrakeHold	NXShield.h	/^  SH_Next_Action_BrakeHold = 0x02 \/*!< apply brakes, and restore externally forced change to tachometer *\/$/;"	e	enum:__anon2
+SH_Next_Action_Float	NXShield.h	/^  SH_Next_Action_Float  = 0x00, \/*!< stop and let the motor coast. *\/$/;"	e	enum:__anon2
+SH_PASS_COUNT	NXShield.h	109;"	d
+SH_POSITION_M1	NXShield.h	100;"	d
+SH_POSITION_M2	NXShield.h	101;"	d
+SH_Protocols	SHDefines.h	/^} SH_Protocols;$/;"	t	typeref:enum:__anon7
+SH_S1	NXShield.h	243;"	d
+SH_S2	NXShield.h	250;"	d
+SH_SETPT_M1	NXShield.h	85;"	d
+SH_SETPT_M2	NXShield.h	91;"	d
+SH_SPEED_M1	NXShield.h	86;"	d
+SH_SPEED_M2	NXShield.h	92;"	d
+SH_SPEED_PID	NXShield.h	108;"	d
+SH_STATUS_BREAK	NXShield.h	77;"	d
+SH_STATUS_M1	NXShield.h	102;"	d
+SH_STATUS_M2	NXShield.h	103;"	d
+SH_STATUS_MOVING	NXShield.h	75;"	d
+SH_STATUS_OVERLOAD	NXShield.h	78;"	d
+SH_STATUS_RAMP	NXShield.h	74;"	d
+SH_STATUS_SPEED	NXShield.h	73;"	d
+SH_STATUS_STALL	NXShield.h	80;"	d
+SH_STATUS_TACHO	NXShield.h	76;"	d
+SH_STATUS_TIME	NXShield.h	79;"	d
+SH_SoftwareI2C	SHDefines.h	/^  SH_SoftwareI2C,  \/*!< Software I2C is slower, and designed to work with Ultrasonic sensor.  *\/$/;"	e	enum:__anon7
+SH_Speed_Full	NXShield.h	159;"	d
+SH_Speed_Medium	NXShield.h	160;"	d
+SH_Speed_Slow	NXShield.h	161;"	d
+SH_TASKS_M1	NXShield.h	104;"	d
+SH_TASKS_M2	NXShield.h	105;"	d
+SH_TIME_M1	NXShield.h	87;"	d
+SH_TIME_M2	NXShield.h	93;"	d
+SH_TOLERANCE	NXShield.h	110;"	d
+SH_Type_ANALOG	NXShield.h	212;"	d
+SH_Type_ANALOG_9VOLTS	NXShield.h	195;"	d
+SH_Type_ANALOG_ACTIVE	NXShield.h	200;"	d
+SH_Type_ANALOG_PASSIVE	NXShield.h	189;"	d
+SH_Type_DATABIT0_HIGH	NXShield.h	226;"	d
+SH_Type_DATABIT1_HIGH	NXShield.h	232;"	d
+SH_Type_I2C	NXShield.h	206;"	d
+SH_Type_MIXED	NXShield.h	218;"	d
+SH_VOLTAGE	NXShield.h	83;"	d
+SOFT_I2C_MASTER	SoftI2cMaster.h	22;"	d
+SUMOEYES_H	SumoEyes.h	24;"	d
+Servo_1	NXTServo.h	33;"	d
+Servo_2	NXTServo.h	34;"	d
+Servo_3	NXTServo.h	35;"	d
+Servo_4	NXTServo.h	36;"	d
+Servo_5	NXTServo.h	37;"	d
+Servo_6	NXTServo.h	38;"	d
+Servo_7	NXTServo.h	39;"	d
+Servo_8	NXTServo.h	40;"	d
+Servo_Command	NXTServo.h	30;"	d
+Servo_Position_1	NXTServo.h	45;"	d
+Servo_Position_2	NXTServo.h	46;"	d
+Servo_Position_3	NXTServo.h	47;"	d
+Servo_Position_4	NXTServo.h	48;"	d
+Servo_Position_5	NXTServo.h	49;"	d
+Servo_Position_6	NXTServo.h	50;"	d
+Servo_Position_7	NXTServo.h	51;"	d
+Servo_Position_8	NXTServo.h	52;"	d
+Servo_Position_Default	NXTServo.h	42;"	d
+Servo_Speed_1	NXTServo.h	54;"	d
+Servo_Speed_2	NXTServo.h	55;"	d
+Servo_Speed_3	NXTServo.h	56;"	d
+Servo_Speed_4	NXTServo.h	57;"	d
+Servo_Speed_5	NXTServo.h	58;"	d
+Servo_Speed_6	NXTServo.h	59;"	d
+Servo_Speed_7	NXTServo.h	60;"	d
+Servo_Speed_8	NXTServo.h	61;"	d
+Servo_Speed_Full	NXTServo.h	43;"	d
+Servo_Voltage	NXTServo.h	31;"	d
+SoftI2cMaster	SoftI2cMaster.cpp	/^SoftI2cMaster::SoftI2cMaster(uint8_t devAddr){$/;"	f	class:SoftI2cMaster
+SoftI2cMaster	SoftI2cMaster.h	/^class SoftI2cMaster {$/;"	c
+Start_Reg	NXTCam.h	33;"	d
+SumoEyes	SumoEyes.h	/^class SumoEyes : public NXShieldAGS$/;"	c
+_buffer	BaseI2CDevice.cpp	/^uint8_t* BaseI2CDevice::_buffer = 0;$/;"	m	class:BaseI2CDevice	file:
+_buffer	BaseI2CDevice.h	/^	static uint8_t* _buffer;$/;"	m	class:BaseI2CDevice
+_device_address	BaseI2CDevice.h	/^	uint8_t _device_address;	\/\/ I2C address of the I2C device$/;"	m	class:BaseI2CDevice
+_i2c_buffer	NXShieldI2C.h	/^	uint8_t *_i2c_buffer;$/;"	m	class:NXShieldI2C
+_overflow	MsTimer2.cpp	/^void MsTimer2::_overflow() {$/;"	f	class:MsTimer2
+_so_buffer	SoftI2cMaster.h	/^	uint8_t* _so_buffer;$/;"	m	class:SoftI2cMaster
+_write_error_code	BaseI2CDevice.h	/^	uint8_t _write_error_code;	\/\/ Error code from last write$/;"	m	class:BaseI2CDevice
+accl	AbsoluteIMU.h	/^struct accl$/;"	s
+aquireXpointCalibration	ACCLNx.cpp	/^bool ACCLNx::aquireXpointCalibration()$/;"	f	class:ACCLNx
+aquireXpointCalibrationEnd	ACCLNx.cpp	/^bool ACCLNx::aquireXpointCalibrationEnd()$/;"	f	class:ACCLNx
+aquireYpointCalibration	ACCLNx.cpp	/^bool ACCLNx::aquireYpointCalibration()$/;"	f	class:ACCLNx
+aquireYpointCalibrationEnd	ACCLNx.cpp	/^bool ACCLNx::aquireYpointCalibrationEnd()$/;"	f	class:ACCLNx
+aquireZpointCalibration	ACCLNx.cpp	/^bool ACCLNx::aquireZpointCalibration()$/;"	f	class:ACCLNx
+aquireZpointCalibrationEnd	ACCLNx.cpp	/^bool ACCLNx::aquireZpointCalibrationEnd()$/;"	f	class:ACCLNx
+asciiMode	NXTHID.cpp	/^bool NXTHID::asciiMode()$/;"	f	class:NXTHID
+ax	AbsoluteIMU.h	/^  int   ax;$/;"	m	struct:accl
+ax_h	AbsoluteIMU.h	/^	short ax_h;$/;"	m	struct:accl
+ax_l	AbsoluteIMU.h	/^	short ax_l;$/;"	m	struct:accl
+ay	AbsoluteIMU.h	/^  int   ay;$/;"	m	struct:accl
+ay_h	AbsoluteIMU.h	/^	short ay_h;$/;"	m	struct:accl
+ay_l	AbsoluteIMU.h	/^	short ay_l;$/;"	m	struct:accl
+az	AbsoluteIMU.h	/^  int   az;$/;"	m	struct:accl
+az_h	AbsoluteIMU.h	/^	short az_h;$/;"	m	struct:accl
+az_l	AbsoluteIMU.h	/^	short az_l;$/;"	m	struct:accl
+b_initialized	BaseI2CDevice.cpp	/^bool BaseI2CDevice::b_initialized = false;$/;"	m	class:BaseI2CDevice	file:
+b_initialized	BaseI2CDevice.h	/^	static bool b_initialized;$/;"	m	class:BaseI2CDevice
+bank_a	NXShield.h	/^  NXShieldBank   bank_a;$/;"	m	class:NXShield
+bank_b	NXShield.h	/^  NXShieldBankB  bank_b;$/;"	m	class:NXShield
+blueLED	NXShield.cpp	/^uint8_t blueLED, blueLED_cp;$/;"	v
+blueLED_cp	NXShield.cpp	/^uint8_t blueLED, blueLED_cp;$/;"	v
+btnState_go	NXShield.cpp	/^bool btnState_go, btnState_left, btnState_right;$/;"	v
+btnState_left	NXShield.cpp	/^bool btnState_go, btnState_left, btnState_right;$/;"	v
+btnState_right	NXShield.cpp	/^bool btnState_go, btnState_left, btnState_right;$/;"	v
+calcFinalSpeed	NXShield.cpp	/^inline int calcFinalSpeed(int initialSpeed, SH_Direction direction)$/;"	f
+calcFinalSpeed	NXTMMX.cpp	/^inline int calcFinalSpeed(int initialSpeed, uint8_t direction)$/;"	f
+calcNextActionBits	NXShield.cpp	/^inline uint8_t calcNextActionBits(SH_Next_Action next_action)$/;"	f
+calcNextActionBits	NXTMMX.cpp	/^inline uint8_t calcNextActionBits(uint8_t next_action)$/;"	f
+calibrateBlack	LineLeader.cpp	/^bool LineLeader::calibrateBlack()$/;"	f	class:LineLeader
+calibrateWhite	LineLeader.cpp	/^bool LineLeader::calibrateWhite()$/;"	f	class:LineLeader
+callbackLED	NXShield.cpp	/^uint32_t callbackLED(uint32_t currentTime)$/;"	f
+callbackLED	NXShield.cpp	/^void callbackLED()$/;"	f
+camFirmware	NXTCam.cpp	/^bool NXTCam::camFirmware()$/;"	f	class:NXTCam
+checkAddress	BaseI2CDevice.cpp	/^bool BaseI2CDevice::checkAddress()$/;"	f	class:BaseI2CDevice
+checkAddress	NXShieldI2C.cpp	/^bool NXShieldI2C::checkAddress  ( )$/;"	f	class:NXShieldI2C
+checkAddress	SoftI2cMaster.cpp	/^bool SoftI2cMaster::checkAddress()$/;"	f	class:SoftI2cMaster
+cmps	AbsoluteIMU.h	/^struct cmps$/;"	s
+configureEurope	LineLeader.cpp	/^bool LineLeader::configureEurope()$/;"	f	class:LineLeader
+configureUS	LineLeader.cpp	/^bool LineLeader::configureUS()$/;"	f	class:LineLeader
+configureUniversal	LineLeader.cpp	/^bool LineLeader::configureUniversal()$/;"	f	class:LineLeader
+controlMotor	PFMate.cpp	/^void PFMate::controlMotor($/;"	f	class:PFMate
+count	MsTimer2.cpp	/^volatile unsigned long MsTimer2::count;$/;"	m	class:MsTimer2	file:
+deEnergize	DISTNx.cpp	/^bool DISTNx::deEnergize()$/;"	f	class:DISTNx
+deEnergize	PSPNx.cpp	/^bool PSPNx::deEnergize()$/;"	f	class:PSPNx
+detectObstacleZone	SumoEyes.cpp	/^SE_Zone SumoEyes::detectObstacleZone()$/;"	f	class:SumoEyes
+deviceAddr	SoftI2cMaster.h	/^	uint8_t deviceAddr;$/;"	m	class:SoftI2cMaster
+directMode	NXTHID.cpp	/^bool NXTHID::directMode()$/;"	f	class:NXTHID
+disableTracking	NXTCam.cpp	/^bool NXTCam::disableTracking()$/;"	f	class:NXTCam
+editMacro	NXTServo.cpp	/^bool NXTServo::editMacro()$/;"	f	class:NXTServo
+enableTracking	NXTCam.cpp	/^bool NXTCam::enableTracking()$/;"	f	class:NXTCam
+energize	DISTNx.cpp	/^bool DISTNx::energize()$/;"	f	class:DISTNx
+energize	PSPNx.cpp	/^bool PSPNx::energize()$/;"	f	class:PSPNx
+error	AbsoluteIMU.h	/^	int error;$/;"	m	struct:accl
+error	AbsoluteIMU.h	/^	int error;$/;"	m	struct:cmps
+error	AbsoluteIMU.h	/^	int error;$/;"	m	struct:gyro
+format_bin	NXShield.cpp	/^bool format_bin(uint8_t i, char *s)$/;"	f
+func	MsTimer2.cpp	/^void (*MsTimer2::func)();$/;"	v
+getAddress	BaseI2CDevice.cpp	/^uint8_t BaseI2CDevice::getAddress()$/;"	f	class:BaseI2CDevice
+getAngle	AngleSensor.cpp	/^long      AngleSensor::getAngle()$/;"	f	class:AngleSensor
+getAverage	LineLeader.cpp	/^unsigned char LineLeader::getAverage()$/;"	f	class:LineLeader
+getBatteryVoltage	NXTMMX.cpp	/^uint8_t NXTMMX::getBatteryVoltage()$/;"	f	class:NXTMMX
+getBatteryVoltage	NXTServo.cpp	/^uint8_t NXTServo::getBatteryVoltage()$/;"	f	class:NXTServo
+getBlackCalibration	LineLeader.cpp	/^uint8_t* LineLeader::getBlackCalibration()$/;"	f	class:LineLeader
+getBlackLimit	LineLeader.cpp	/^uint8_t* LineLeader::getBlackLimit()$/;"	f	class:LineLeader
+getBlobs	NXTCam.cpp	/^void NXTCam::getBlobs(int *nblobs, uint8_t *color, uint8_t *left, uint8_t *top, uint8_t *right, uint8_t *bottom)$/;"	f	class:NXTCam
+getButtonState	NXShield.cpp	/^bool NXShield::getButtonState(uint8_t btn) {$/;"	f	class:NXShield
+getButtons	PSPNx.cpp	/^void PSPNx::getButtons(int8_t *buttons1, int8_t *buttons2)$/;"	f	class:PSPNx
+getColorMap	NXTCam.cpp	/^bool NXTCam::getColorMap()$/;"	f	class:NXTCam
+getCommandRegA	NXTMMX.cpp	/^uint8_t NXTMMX::getCommandRegA(uint8_t which_motor)$/;"	f	class:NXTMMX
+getCommandRegB	NXTMMX.cpp	/^uint8_t NXTMMX::getCommandRegB(uint8_t which_motor)$/;"	f	class:NXTMMX
+getDayMonth	RTC.cpp	/^uint8_t RTC::getDayMonth()$/;"	f	class:RTC
+getDayWeek	RTC.cpp	/^uint8_t RTC::getDayWeek()$/;"	f	class:RTC
+getDeviceID	BaseI2CDevice.cpp	/^char* BaseI2CDevice::getDeviceID()$/;"	f	class:BaseI2CDevice
+getDeviceID	NXShieldI2C.cpp	/^char* NXShieldI2C::getDeviceID()$/;"	f	class:NXShieldI2C
+getDeviceID	NXTUS.cpp	/^char*		NXTUS::getDeviceID()$/;"	f	class:NXTUS
+getDeviceID	SoftI2cMaster.cpp	/^char* SoftI2cMaster::getDeviceID(){$/;"	f	class:SoftI2cMaster
+getDist	DISTNx.cpp	/^int DISTNx::getDist()$/;"	f	class:DISTNx
+getDist	NXTUS.cpp	/^uint8_t NXTUS::getDist(){$/;"	f	class:NXTUS
+getEncoderPosition	NXTMMX.cpp	/^int32_t NXTMMX::getEncoderPosition(uint8_t which_motor)$/;"	f	class:NXTMMX
+getEncoderTarget	NXTMMX.cpp	/^long NXTMMX::getEncoderTarget(uint8_t which_motor)$/;"	f	class:NXTMMX
+getFeatureSet	BaseI2CDevice.cpp	/^char* BaseI2CDevice::getFeatureSet()$/;"	f	class:BaseI2CDevice
+getFeatureSet	NXShieldI2C.cpp	/^char* NXShieldI2C::getFeatureSet()$/;"	f	class:NXShieldI2C
+getFirmwareVersion	BaseI2CDevice.cpp	/^char* BaseI2CDevice::getFirmwareVersion()$/;"	f	class:BaseI2CDevice
+getFirmwareVersion	NXShieldI2C.cpp	/^char* NXShieldI2C::getFirmwareVersion()$/;"	f	class:NXShieldI2C
+getFirmwareVersion	NXTUS.cpp	/^char*		NXTUS::getFirmwareVersion()$/;"	f	class:NXTUS
+getFirmwareVersion	SoftI2cMaster.cpp	/^char* SoftI2cMaster::getFirmwareVersion(){$/;"	f	class:SoftI2cMaster
+getHours	RTC.cpp	/^uint8_t RTC::getHours()$/;"	f	class:RTC
+getKd	LineLeader.cpp	/^uint8_t LineLeader::getKd(uint8_t kd)$/;"	f	class:LineLeader
+getKdFactor	LineLeader.cpp	/^uint8_t LineLeader::getKdFactor(uint8_t kdfact)$/;"	f	class:LineLeader
+getKi	LineLeader.cpp	/^uint8_t LineLeader::getKi(uint8_t ki)$/;"	f	class:LineLeader
+getKiFactor	LineLeader.cpp	/^uint8_t LineLeader::getKiFactor(uint8_t kifact)$/;"	f	class:LineLeader
+getKp	LineLeader.cpp	/^uint8_t LineLeader::getKp(uint8_t kp)$/;"	f	class:LineLeader
+getKpFactor	LineLeader.cpp	/^uint8_t LineLeader::getKpFactor(uint8_t kpfact)$/;"	f	class:LineLeader
+getMinutes	RTC.cpp	/^uint8_t RTC::getMinutes()$/;"	f	class:RTC
+getMonth	RTC.cpp	/^uint8_t RTC::getMonth()$/;"	f	class:RTC
+getMotorStatusByte	NXTMMX.cpp	/^uint8_t NXTMMX::getMotorStatusByte(uint8_t which_motor)$/;"	f	class:NXTMMX
+getMotorTasksRunningByte	NXTMMX.cpp	/^uint8_t NXTMMX::getMotorTasksRunningByte(uint8_t which_motor)$/;"	f	class:NXTMMX
+getNumberObjects	NXTCam.cpp	/^int NXTCam::getNumberObjects()$/;"	f	class:NXTCam
+getRawCalibrated	LineLeader.cpp	/^uint8_t* LineLeader::getRawCalibrated()$/;"	f	class:LineLeader
+getRawReading	AngleSensor.cpp	/^long      AngleSensor::getRawReading()$/;"	f	class:AngleSensor
+getRawUncalibrated	LineLeader.cpp	/^uint8_t* LineLeader::getRawUncalibrated()$/;"	f	class:LineLeader
+getResult	LineLeader.cpp	/^unsigned char LineLeader::getResult()$/;"	f	class:LineLeader
+getSeconds	RTC.cpp	/^uint8_t RTC::getSeconds()$/;"	f	class:RTC
+getSens	ACCLNx.cpp	/^short ACCLNx::getSens()$/;"	f	class:ACCLNx
+getSetPoint	LineLeader.cpp	/^uint8_t LineLeader::getSetPoint()$/;"	f	class:LineLeader
+getSpeed	NXTMMX.cpp	/^int8_t NXTMMX::getSpeed(uint8_t which_motor)$/;"	f	class:NXTMMX
+getSteering	LineLeader.cpp	/^int LineLeader::getSteering()$/;"	f	class:LineLeader
+getTimeToRun	NXTMMX.cpp	/^bool NXTMMX::getTimeToRun(uint8_t which_motor, int seconds)$/;"	f	class:NXTMMX
+getTimeToRun	NXTMMX.cpp	/^uint8_t NXTMMX::getTimeToRun(uint8_t which_motor)$/;"	f	class:NXTMMX
+getType	DISTNx.cpp	/^short DISTNx::getType()$/;"	f	class:DISTNx
+getVendorID	BaseI2CDevice.cpp	/^char* BaseI2CDevice::getVendorID()$/;"	f	class:BaseI2CDevice
+getVendorID	NXShieldI2C.cpp	/^char* NXShieldI2C::getVendorID()$/;"	f	class:NXShieldI2C
+getVendorID	NXTUS.cpp	/^char*		NXTUS::getVendorID()$/;"	f	class:NXTUS
+getVendorID	SoftI2cMaster.cpp	/^char* SoftI2cMaster::getVendorID(){  $/;"	f	class:SoftI2cMaster
+getVolt	DISTNx.cpp	/^int DISTNx::getVolt()$/;"	f	class:DISTNx
+getWhiteCalibration	LineLeader.cpp	/^uint8_t* LineLeader::getWhiteCalibration()$/;"	f	class:LineLeader
+getWhiteLimit	LineLeader.cpp	/^uint8_t* LineLeader::getWhiteLimit()$/;"	f	class:LineLeader
+getWriteErrorCode	BaseI2CDevice.cpp	/^uint8_t BaseI2CDevice::getWriteErrorCode()$/;"	f	class:BaseI2CDevice
+getXAccl	ACCLNx.cpp	/^int ACCLNx::getXAccl()$/;"	f	class:ACCLNx
+getXLJoy	PSPNx.cpp	/^int8_t PSPNx::getXLJoy()$/;"	f	class:PSPNx
+getXRJoy	PSPNx.cpp	/^int8_t PSPNx::getXRJoy()$/;"	f	class:PSPNx
+getXTilt	ACCLNx.cpp	/^short ACCLNx::getXTilt()$/;"	f	class:ACCLNx
+getYAccl	ACCLNx.cpp	/^int ACCLNx::getYAccl()$/;"	f	class:ACCLNx
+getYLJoy	PSPNx.cpp	/^int8_t PSPNx::getYLJoy()$/;"	f	class:PSPNx
+getYRJoy	PSPNx.cpp	/^int8_t PSPNx::getYRJoy()$/;"	f	class:PSPNx
+getYTilt	ACCLNx.cpp	/^short ACCLNx::getYTilt()$/;"	f	class:ACCLNx
+getYear	RTC.cpp	/^uint8_t RTC::getYear()$/;"	f	class:RTC
+getZAccl	ACCLNx.cpp	/^int ACCLNx::getZAccl()$/;"	f	class:ACCLNx
+getZTilt	ACCLNx.cpp	/^short ACCLNx::getZTilt()$/;"	f	class:ACCLNx
+gotoEEPROM	NXTServo.cpp	/^bool NXTServo::gotoEEPROM()$/;"	f	class:NXTServo
+greenLED	NXShield.cpp	/^uint8_t greenLED, greenLED_cp;$/;"	v
+greenLED_cp	NXShield.cpp	/^uint8_t greenLED, greenLED_cp;$/;"	v
+gx	AbsoluteIMU.h	/^  int   gx;$/;"	m	struct:gyro
+gx_h	AbsoluteIMU.h	/^	short gx_h;$/;"	m	struct:gyro
+gx_l	AbsoluteIMU.h	/^	short gx_l;$/;"	m	struct:gyro
+gy	AbsoluteIMU.h	/^  int   gy;$/;"	m	struct:gyro
+gy_h	AbsoluteIMU.h	/^	short gy_h;$/;"	m	struct:gyro
+gy_l	AbsoluteIMU.h	/^	short gy_l;$/;"	m	struct:gyro
+gyro	AbsoluteIMU.h	/^struct gyro$/;"	s
+gz	AbsoluteIMU.h	/^  int   gz;$/;"	m	struct:gyro
+gz_h	AbsoluteIMU.h	/^	short gz_h;$/;"	m	struct:gyro
+gz_l	AbsoluteIMU.h	/^	short gz_l;$/;"	m	struct:gyro
+haltMacro	NXTServo.cpp	/^bool NXTServo::haltMacro()$/;"	f	class:NXTServo
+heading	AbsoluteIMU.h	/^  int heading;$/;"	m	struct:cmps
+heading_h	AbsoluteIMU.h	/^	short heading_h;$/;"	m	struct:cmps
+heading_l	AbsoluteIMU.h	/^	short heading_l;$/;"	m	struct:cmps
+illuminationOff	NXTCam.cpp	/^bool NXTCam::illuminationOff()$/;"	f	class:NXTCam
+illuminationOn	NXTCam.cpp	/^bool NXTCam::illuminationOn()$/;"	f	class:NXTCam
+init	NXShield.cpp	/^void NXShield::init(SH_Protocols protocol)$/;"	f	class:NXShield
+init	NXShieldAGS.cpp	/^bool NXShieldAGS::init(NXShield * shield, SH_BankPort bp)$/;"	f	class:NXShieldAGS
+init	NXShieldI2C.cpp	/^void NXShieldI2C::init(void * shield, SH_BankPort bp)$/;"	f	class:NXShieldI2C
+init	NXTLight.cpp	/^bool NXTLight::init(NXShield * shield, SH_BankPort bp)$/;"	f	class:NXTLight
+init	NXTUS.cpp	/^void NXTUS::init(NXShield * shield, SH_BankPort bp)$/;"	f	class:NXTUS
+init	RCXLight.cpp	/^bool RCXLight::init(NXShield * shield, SH_BankPort bp)$/;"	f	class:RCXLight
+init	SumoEyes.cpp	/^bool SumoEyes::init(NXShield * shield, SH_BankPort bp)$/;"	f	class:SumoEyes
+initLEDTimers	NXShield.cpp	/^void NXShield::initLEDTimers()$/;"	f	class:NXShield
+initProtocol	BaseI2CDevice.cpp	/^void BaseI2CDevice::initProtocol()$/;"	f	class:BaseI2CDevice
+initProtocol	SoftI2cMaster.cpp	/^void SoftI2cMaster::initProtocol(uint8_t sclPin, uint8_t sdaPin){$/;"	f	class:SoftI2cMaster
+initProtocols	NXShield.cpp	/^void NXShield::initProtocols(SH_Protocols protocol)$/;"	f	class:NXShield
+initialized	SoftI2cMaster.h	/^	bool initialized;$/;"	m	class:SoftI2cMaster
+invertLineColorToWhite	LineLeader.cpp	/^bool LineLeader::invertLineColorToWhite()$/;"	f	class:LineLeader
+isNear	SumoEyes.cpp	/^bool SumoEyes::isNear(int reference, int delta, int comet)$/;"	f	class:SumoEyes
+isPressed	NXTTouch.cpp	/^bool NXTTouch::isPressed()$/;"	f	class:NXTTouch
+isTachoDone	NXTMMX.cpp	/^bool NXTMMX::isTachoDone(uint8_t which_motors)$/;"	f	class:NXTMMX
+isTimeDone	NXTMMX.cpp	/^bool NXTMMX::isTimeDone(uint8_t which_motors)$/;"	f	class:NXTMMX
+issueCommand	ACCLNx.cpp	/^uint8_t ACCLNx::issueCommand(char command)$/;"	f	class:ACCLNx
+issueCommand	DISTNx.cpp	/^uint8_t DISTNx::issueCommand(char command)$/;"	f	class:DISTNx
+issueCommand	LineLeader.cpp	/^uint8_t LineLeader::issueCommand(char command)$/;"	f	class:LineLeader
+issueCommand	NXTCam.cpp	/^uint8_t NXTCam::issueCommand(char command)$/;"	f	class:NXTCam
+issueCommand	NXTHID.cpp	/^uint8_t NXTHID::issueCommand(char command)$/;"	f	class:NXTHID
+issueCommand	NXTMMX.cpp	/^uint8_t NXTMMX::issueCommand(char command)$/;"	f	class:NXTMMX
+issueCommand	NXTPowerMeter.cpp	/^uint8_t NXTPowerMeter::issueCommand(char command)$/;"	f	class:NXTPowerMeter
+issueCommand	NXTServo.cpp	/^uint8_t NXTServo::issueCommand(char command)$/;"	f	class:NXTServo
+issueCommand	PFMate.cpp	/^uint8_t PFMate::issueCommand(char command)$/;"	f	class:PFMate
+issueCommand	PSPNx.cpp	/^uint8_t PSPNx::issueCommand(char command)$/;"	f	class:PSPNx
+keyMap	NumericPad.cpp	/^char keyMap[] = { '4', '1', '7', '*', '5', '2', '8', '0', '3', '6', '9', '#' };$/;"	v
+ledBreathingPattern	NXShield.cpp	/^void NXShield::ledBreathingPattern() {$/;"	f	class:NXShield
+ledHeartBeatPattern	NXShield.cpp	/^void NXShield::ledHeartBeatPattern() {$/;"	f	class:NXShield
+ledSetRGB	NXShield.cpp	/^void NXShield::ledSetRGB(uint8_t red, uint8_t green, uint8_t blue)$/;"	f	class:NXShield
+lightWand	MagicWand.cpp	/^void MagicWand::lightWand(uint8_t byteToWrite){$/;"	f	class:MagicWand
+m_bp	NXShieldAGS.h	/^	SH_BankPort m_bp;$/;"	m	class:NXShieldAGS
+m_bp	NXTUS.h	/^  SH_BankPort m_bp;$/;"	m	class:NXTUS
+m_protocol	NXShield.h	/^  uint8_t m_protocol;$/;"	m	class:NXShield
+m_protocol	NXShieldI2C.h	/^	uint8_t m_protocol;$/;"	m	class:NXShieldI2C
+magnetic_field	AbsoluteIMU.h	/^struct magnetic_field$/;"	s
+motorGetCommandRegA	NXShield.cpp	/^uint8_t NXShieldBank::motorGetCommandRegA(SH_Motor which_motor)$/;"	f	class:NXShieldBank
+motorGetCommandRegB	NXShield.cpp	/^uint8_t NXShieldBank::motorGetCommandRegB(SH_Motor which_motor)$/;"	f	class:NXShieldBank
+motorGetEncoderPosition	NXShield.cpp	/^int32_t NXShieldBank::motorGetEncoderPosition(SH_Motor which_motor)$/;"	f	class:NXShieldBank
+motorGetEncoderTarget	NXShield.cpp	/^long NXShieldBank::motorGetEncoderTarget(SH_Motor which_motor)$/;"	f	class:NXShieldBank
+motorGetSpeed	NXShield.cpp	/^int8_t NXShieldBank::motorGetSpeed(SH_Motor which_motor)$/;"	f	class:NXShieldBank
+motorGetStatusByte	NXShield.cpp	/^uint8_t NXShieldBank::motorGetStatusByte(SH_Motor which_motor)$/;"	f	class:NXShieldBank
+motorGetTasksRunningByte	NXShield.cpp	/^uint8_t NXShieldBank::motorGetTasksRunningByte(SH_Motor which_motor)$/;"	f	class:NXShieldBank
+motorGetTimeToRun	NXShield.cpp	/^uint8_t NXShieldBank::motorGetTimeToRun(SH_Motor which_motor)$/;"	f	class:NXShieldBank
+motorIsTachoDone	NXShield.cpp	/^uint8_t NXShieldBank::motorIsTachoDone(SH_Motor which_motors)$/;"	f	class:NXShieldBank
+motorIsTimeDone	NXShield.cpp	/^uint8_t NXShieldBank::motorIsTimeDone(SH_Motor which_motors)$/;"	f	class:NXShieldBank
+motorReset	NXShield.cpp	/^bool NXShieldBank::motorReset()$/;"	f	class:NXShieldBank
+motorResetEncoder	NXShield.cpp	/^bool NXShieldBank::motorResetEncoder(SH_Motor which_motor)$/;"	f	class:NXShieldBank
+motorRunDegrees	NXShield.cpp	/^uint8_t NXShieldBank::motorRunDegrees($/;"	f	class:NXShieldBank
+motorRunRotations	NXShield.cpp	/^uint8_t NXShieldBank::motorRunRotations($/;"	f	class:NXShieldBank
+motorRunSeconds	NXShield.cpp	/^uint8_t NXShieldBank::motorRunSeconds($/;"	f	class:NXShieldBank
+motorRunTachometer	NXShield.cpp	/^uint8_t NXShieldBank::motorRunTachometer($/;"	f	class:NXShieldBank
+motorRunUnlimited	NXShield.cpp	/^void NXShieldBank::motorRunUnlimited($/;"	f	class:NXShieldBank
+motorSetCommandRegA	NXShield.cpp	/^bool NXShieldBank::motorSetCommandRegA(SH_Motor which_motor, uint8_t value)$/;"	f	class:NXShieldBank
+motorSetCommandRegB	NXShield.cpp	/^bool NXShieldBank::motorSetCommandRegB(SH_Motor which_motor, uint8_t value)$/;"	f	class:NXShieldBank
+motorSetEncoderPID	NXShield.cpp	/^bool NXShieldBank::motorSetEncoderPID(uint16_t Kp, uint16_t Ki, uint16_t Kd)$/;"	f	class:NXShieldBank
+motorSetEncoderSpeedTimeAndControl	NXShield.cpp	/^bool NXShieldBank::motorSetEncoderSpeedTimeAndControl($/;"	f	class:NXShieldBank
+motorSetEncoderTarget	NXShield.cpp	/^bool NXShieldBank::motorSetEncoderTarget(SH_Motor which_motor, long target)$/;"	f	class:NXShieldBank
+motorSetPassCount	NXShield.cpp	/^bool NXShieldBank::motorSetPassCount(uint8_t pass_count)$/;"	f	class:NXShieldBank
+motorSetSpeed	NXShield.cpp	/^bool NXShieldBank::motorSetSpeed(SH_Motor which_motor, int speed)$/;"	f	class:NXShieldBank
+motorSetSpeedPID	NXShield.cpp	/^bool NXShieldBank::motorSetSpeedPID(uint16_t Kp, uint16_t Ki, uint16_t Kd)$/;"	f	class:NXShieldBank
+motorSetSpeedTimeAndControl	NXShield.cpp	/^bool NXShieldBank::motorSetSpeedTimeAndControl($/;"	f	class:NXShieldBank
+motorSetTimeToRun	NXShield.cpp	/^bool NXShieldBank::motorSetTimeToRun(SH_Motor which_motor, int seconds)$/;"	f	class:NXShieldBank
+motorSetTolerance	NXShield.cpp	/^bool NXShieldBank::motorSetTolerance(uint8_t tolerance)$/;"	f	class:NXShieldBank
+motorStartBothInSync	NXShield.cpp	/^bool NXShieldBank::motorStartBothInSync()$/;"	f	class:NXShieldBank
+motorStop	NXShield.cpp	/^bool NXShieldBank::motorStop(SH_Motor which_motors, SH_Next_Action next_action)$/;"	f	class:NXShieldBank
+motorWaitUntilTachoDone	NXShield.cpp	/^uint8_t NXShieldBank::motorWaitUntilTachoDone(SH_Motor which_motors)$/;"	f	class:NXShieldBank
+motorWaitUntilTimeDone	NXShield.cpp	/^uint8_t NXShieldBank::motorWaitUntilTimeDone(SH_Motor which_motors)$/;"	f	class:NXShieldBank
+mp_shield	NXShieldAGS.h	/^	NXShield * mp_shield;$/;"	m	class:NXShieldAGS
+mp_shield	NXShieldI2C.h	/^  void * mp_shield;$/;"	m	class:NXShieldI2C
+mp_shield	NXTUS.h	/^  NXShield *mp_shield;$/;"	m	class:NXTUS
+msecs	MsTimer2.cpp	/^unsigned long MsTimer2::msecs;$/;"	m	class:MsTimer2	file:
+mx	AbsoluteIMU.h	/^  int   mx;$/;"	m	struct:magnetic_field
+my	AbsoluteIMU.h	/^  int   my;$/;"	m	struct:magnetic_field
+mz	AbsoluteIMU.h	/^  int   mz;$/;"	m	struct:magnetic_field
+nxshieldGetBatteryVoltage	NXShield.cpp	/^int NXShieldBank::nxshieldGetBatteryVoltage()$/;"	f	class:NXShieldBank
+nxshieldIssueCommand	NXShield.cpp	/^uint8_t NXShieldBank::nxshieldIssueCommand(char command)$/;"	f	class:NXShieldBank
+nxshieldSetEncoderSpeedTimeAndControlInBuffer	NXShield.cpp	/^void nxshieldSetEncoderSpeedTimeAndControlInBuffer($/;"	f
+overflowing	MsTimer2.cpp	/^volatile char MsTimer2::overflowing;$/;"	m	class:MsTimer2	file:
+pauseMacro	NXTServo.cpp	/^bool NXTServo::pauseMacro()$/;"	f	class:NXTServo
+pingCam	NXTCam.cpp	/^bool NXTCam::pingCam()$/;"	f	class:NXTCam
+read	SoftI2cMaster.cpp	/^uint8_t SoftI2cMaster::read(uint8_t last){$/;"	f	class:SoftI2cMaster
+readByte	BaseI2CDevice.cpp	/^uint8_t BaseI2CDevice::readByte(uint8_t location)$/;"	f	class:BaseI2CDevice
+readByte	NXShieldI2C.cpp	/^uint8_t  NXShieldI2C::readByte  (uint8_t location)$/;"	f	class:NXShieldI2C
+readByte	SoftI2cMaster.cpp	/^uint8_t SoftI2cMaster::readByte (uint8_t location){$/;"	f	class:SoftI2cMaster
+readCapacityUsed	NXTPowerMeter.cpp	/^int NXTPowerMeter::readCapacityUsed()$/;"	f	class:NXTPowerMeter
+readElapsedTime	NXTPowerMeter.cpp	/^long NXTPowerMeter::readElapsedTime()$/;"	f	class:NXTPowerMeter
+readGyro	AbsoluteIMU.cpp	/^void      AbsoluteIMU::readGyro(gyro &currGyro)$/;"	f	class:AbsoluteIMU
+readImageRegisters	NXTCam.cpp	/^bool NXTCam::readImageRegisters()$/;"	f	class:NXTCam
+readIntFromBuffer	BaseI2CDevice.h	/^inline uint16_t readIntFromBuffer(uint8_t* buf)$/;"	f
+readInteger	BaseI2CDevice.cpp	/^int16_t BaseI2CDevice::readInteger(uint8_t location)$/;"	f	class:BaseI2CDevice
+readInteger	NXShieldI2C.cpp	/^uint16_t NXShieldI2C::readInteger  (uint8_t location)$/;"	f	class:NXShieldI2C
+readInteger	SoftI2cMaster.cpp	/^int16_t SoftI2cMaster::readInteger (uint8_t location){$/;"	f	class:SoftI2cMaster
+readLong	BaseI2CDevice.cpp	/^uint32_t BaseI2CDevice::readLong(uint8_t location)$/;"	f	class:BaseI2CDevice
+readLong	NXShieldI2C.cpp	/^uint32_t NXShieldI2C::readLong  (uint8_t location)$/;"	f	class:NXShieldI2C
+readLong	SoftI2cMaster.cpp	/^uint32_t SoftI2cMaster::readLong (uint8_t location){$/;"	f	class:SoftI2cMaster
+readLongFromBuffer	BaseI2CDevice.h	/^inline uint32_t readLongFromBuffer(uint8_t* buf)$/;"	f
+readPresentCurrent	NXTPowerMeter.cpp	/^int NXTPowerMeter::readPresentCurrent()$/;"	f	class:NXTPowerMeter
+readPresentVoltage	NXTPowerMeter.cpp	/^int NXTPowerMeter::readPresentVoltage()$/;"	f	class:NXTPowerMeter
+readRaw	NXShieldAGS.cpp	/^int NXShieldAGS::readRaw()$/;"	f	class:NXShieldAGS
+readRegisters	BaseI2CDevice.cpp	/^uint8_t* BaseI2CDevice::readRegisters($/;"	f	class:BaseI2CDevice
+readRegisters	NXShieldI2C.cpp	/^uint8_t*  NXShieldI2C::readRegisters  (uint8_t  startRegister, uint8_t  bytes, uint8_t* buf)$/;"	f	class:NXShieldI2C
+readRegisters	SoftI2cMaster.cpp	/^uint8_t* SoftI2cMaster::readRegisters(uint8_t startRegister, uint8_t bytes, uint8_t* buf){$/;"	f	class:SoftI2cMaster
+readString	BaseI2CDevice.cpp	/^char* BaseI2CDevice::readString($/;"	f	class:BaseI2CDevice
+readString	NXShieldI2C.cpp	/^char*    NXShieldI2C::readString  (uint8_t  location, uint8_t  bytes_to_read,$/;"	f	class:NXShieldI2C
+readString	SoftI2cMaster.cpp	/^char* SoftI2cMaster::readString(uint8_t startRegister, uint8_t bytes,$/;"	f	class:SoftI2cMaster
+redLED	NXShield.cpp	/^uint8_t redLED, redLED_cp;$/;"	v
+redLED_cp	NXShield.cpp	/^uint8_t redLED, redLED_cp;$/;"	v
+reset	AngleSensor.cpp	/^void AngleSensor::reset()$/;"	f	class:AngleSensor
+reset	NXTMMX.cpp	/^bool NXTMMX::reset()$/;"	f	class:NXTMMX
+reset	NXTServo.cpp	/^bool NXTServo::reset()$/;"	f	class:NXTServo
+resetCam	NXTCam.cpp	/^bool NXTCam::resetCam()$/;"	f	class:NXTCam
+resetColorInversion	LineLeader.cpp	/^bool LineLeader::resetColorInversion()$/;"	f	class:LineLeader
+resetCounters	NXTPowerMeter.cpp	/^bool NXTPowerMeter::resetCounters()$/;"	f	class:NXTPowerMeter
+resetEncoder	NXTMMX.cpp	/^bool NXTMMX::resetEncoder(uint8_t which_motor)$/;"	f	class:NXTMMX
+resetFactory	ACCLNx.cpp	/^bool ACCLNx::resetFactory()$/;"	f	class:ACCLNx
+restart	SoftI2cMaster.cpp	/^uint8_t SoftI2cMaster::restart(uint8_t addressRW){$/;"	f	class:SoftI2cMaster
+resumeMacro	NXTServo.cpp	/^bool NXTServo::resumeMacro()$/;"	f	class:NXTServo
+runDegrees	NXTMMX.cpp	/^void NXTMMX::runDegrees($/;"	f	class:NXTMMX
+runRotations	NXTMMX.cpp	/^void NXTMMX::runRotations($/;"	f	class:NXTMMX
+runSeconds	NXTMMX.cpp	/^void NXTMMX::runSeconds($/;"	f	class:NXTMMX
+runServo	NXTServo.cpp	/^void NXTServo::runServo(uint8_t number,			    \/\/ Servo_1, 2, 3, ..., 8$/;"	f	class:NXTServo
+runTachometer	NXTMMX.cpp	/^void NXTMMX::runTachometer($/;"	f	class:NXTMMX
+runUnlimited	NXTMMX.cpp	/^void NXTMMX::runUnlimited($/;"	f	class:NXTMMX
+sclPin_	SoftI2cMaster.h	/^	uint8_t sclPin_;$/;"	m	class:SoftI2cMaster
+sdaPin_	SoftI2cMaster.h	/^	uint8_t sdaPin_;$/;"	m	class:SoftI2cMaster
+selectLineMode	NXTCam.cpp	/^bool NXTCam::selectLineMode()$/;"	f	class:NXTCam
+selectObjectMode	NXTCam.cpp	/^bool NXTCam::selectObjectMode()$/;"	f	class:NXTCam
+sendColorMap	NXTCam.cpp	/^bool NXTCam::sendColorMap()$/;"	f	class:NXTCam
+sendKeyboardData	NXTHID.cpp	/^bool NXTHID::sendKeyboardData(uint8_t data)$/;"	f	class:NXTHID
+sendSignal	PFMate.cpp	/^bool PFMate::sendSignal()$/;"	f	class:PFMate
+sendTextString	NXTHID.cpp	/^bool NXTHID::sendTextString(char *str)$/;"	f	class:NXTHID
+sensorReadRaw	NXShield.cpp	/^int NXShieldBank::sensorReadRaw(uint8_t which_sensor)$/;"	f	class:NXShieldBank
+sensorReadRaw	NXShield.cpp	/^int NXShieldBankB::sensorReadRaw(uint8_t which_sensor)$/;"	f	class:NXShieldBankB
+sensorSetType	NXShield.cpp	/^bool NXShieldBank::sensorSetType(uint8_t which_sensor, uint8_t sensor_type)$/;"	f	class:NXShieldBank
+sensorSetType	NXShield.cpp	/^bool NXShieldBankB::sensorSetType(uint8_t which_sensor, uint8_t sensor_type)$/;"	f	class:NXShieldBankB
+set	MsTimer2.cpp	/^void MsTimer2::set(unsigned long ms, void (*f)()) {$/;"	f	class:MsTimer2
+setAddress	BaseI2CDevice.cpp	/^bool BaseI2CDevice::setAddress(uint8_t i2c_address)$/;"	f	class:BaseI2CDevice
+setAddress	NXShieldI2C.cpp	/^bool NXShieldI2C::setAddress  (uint8_t address)$/;"	f	class:NXShieldI2C
+setAddress	SoftI2cMaster.cpp	/^bool SoftI2cMaster::setAddress(uint8_t address)$/;"	f	class:SoftI2cMaster
+setAmbient	NXTLight.cpp	/^bool NXTLight::setAmbient()$/;"	f	class:NXTLight
+setAnalogMode	PSPNx.cpp	/^bool PSPNx::setAnalogMode()$/;"	f	class:PSPNx
+setChannel	PFMate.cpp	/^bool PFMate::setChannel(uint8_t channel)$/;"	f	class:PFMate
+setCommandRegA	NXTMMX.cpp	/^bool NXTMMX::setCommandRegA(uint8_t which_motor, uint8_t value)$/;"	f	class:NXTMMX
+setCommandRegB	NXTMMX.cpp	/^bool NXTMMX::setCommandRegB(uint8_t which_motor, uint8_t value)$/;"	f	class:NXTMMX
+setControl	PFMate.cpp	/^bool PFMate::setControl(uint8_t control)$/;"	f	class:PFMate
+setDigitalMode	PSPNx.cpp	/^bool PSPNx::setDigitalMode()$/;"	f	class:PSPNx
+setEncoderPID	NXTMMX.cpp	/^bool NXTMMX::setEncoderPID(uint16_t Kp, uint16_t Ki, uint16_t Kd)$/;"	f	class:NXTMMX
+setEncoderSpeedTimeAndControl	NXTMMX.cpp	/^bool NXTMMX::setEncoderSpeedTimeAndControl($/;"	f	class:NXTMMX
+setEncoderSpeedTimeAndControlInBuffer	NXTMMX.cpp	/^void setEncoderSpeedTimeAndControlInBuffer($/;"	f
+setEncoderTarget	NXTMMX.cpp	/^bool NXTMMX::setEncoderTarget(uint8_t which_motor, long target)$/;"	f	class:NXTMMX
+setKd	LineLeader.cpp	/^bool LineLeader::setKd(uint8_t kd)$/;"	f	class:LineLeader
+setKdFactor	LineLeader.cpp	/^bool LineLeader::setKdFactor(uint8_t kdfact)$/;"	f	class:LineLeader
+setKi	LineLeader.cpp	/^bool LineLeader::setKi(uint8_t ki)$/;"	f	class:LineLeader
+setKiFactor	LineLeader.cpp	/^bool LineLeader::setKiFactor(uint8_t kifact)$/;"	f	class:LineLeader
+setKp	LineLeader.cpp	/^bool LineLeader::setKp(uint8_t kp)$/;"	f	class:LineLeader
+setKpFactor	LineLeader.cpp	/^bool LineLeader::setKpFactor(uint8_t kpfact)$/;"	f	class:LineLeader
+setLongRange	SumoEyes.cpp	/^bool SumoEyes::setLongRange()$/;"	f	class:SumoEyes
+setModifier	NXTHID.cpp	/^bool NXTHID::setModifier(uint8_t mod)$/;"	f	class:NXTHID
+setOperationA	PFMate.cpp	/^bool PFMate::setOperationA(uint8_t operation)$/;"	f	class:PFMate
+setOperationB	PFMate.cpp	/^bool PFMate::setOperationB(uint8_t operation)$/;"	f	class:PFMate
+setPassCount	NXTMMX.cpp	/^bool NXTMMX::setPassCount(uint8_t pass_count)$/;"	f	class:NXTMMX
+setPosition	NXTServo.cpp	/^bool NXTServo::setPosition(uint8_t number, uint8_t position)$/;"	f	class:NXTServo
+setReflected	NXTLight.cpp	/^bool NXTLight::setReflected()$/;"	f	class:NXTLight
+setSetPoint	LineLeader.cpp	/^bool LineLeader::setSetPoint(uint8_t spoint)$/;"	f	class:LineLeader
+setShortRange	SumoEyes.cpp	/^bool SumoEyes::setShortRange()$/;"	f	class:SumoEyes
+setSpeed	NXTMMX.cpp	/^bool NXTMMX::setSpeed(uint8_t which_motor, int speed)$/;"	f	class:NXTMMX
+setSpeed	NXTServo.cpp	/^bool NXTServo::setSpeed(uint8_t number, uint8_t speed)$/;"	f	class:NXTServo
+setSpeedA	PFMate.cpp	/^bool PFMate::setSpeedA(uint8_t speed)$/;"	f	class:PFMate
+setSpeedB	PFMate.cpp	/^bool PFMate::setSpeedB(uint8_t speed)$/;"	f	class:PFMate
+setSpeedPID	NXTMMX.cpp	/^bool NXTMMX::setSpeedPID(uint16_t Kp, uint16_t Ki, uint16_t Kd)$/;"	f	class:NXTMMX
+setSpeedTimeAndControl	NXTMMX.cpp	/^bool NXTMMX::setSpeedTimeAndControl($/;"	f	class:NXTMMX
+setTolerance	NXTMMX.cpp	/^bool NXTMMX::setTolerance(uint8_t tolerance)$/;"	f	class:NXTMMX
+setType	NXShieldAGS.cpp	/^bool NXShieldAGS::setType(uint8_t type)$/;"	f	class:NXShieldAGS
+setType	SumoEyes.cpp	/^bool SumoEyes::setType(int8_t type)$/;"	f	class:SumoEyes
+setWriteErrorCode	BaseI2CDevice.cpp	/^void BaseI2CDevice::setWriteErrorCode(uint8_t code)$/;"	f	class:BaseI2CDevice
+sleep	LineLeader.cpp	/^bool LineLeader::sleep()$/;"	f	class:LineLeader
+sortColor	NXTCam.cpp	/^bool NXTCam::sortColor()$/;"	f	class:NXTCam
+sortNone	NXTCam.cpp	/^bool NXTCam::sortNone()$/;"	f	class:NXTCam
+sortSize	NXTCam.cpp	/^bool NXTCam::sortSize()$/;"	f	class:NXTCam
+start	MsTimer2.cpp	/^void MsTimer2::start() {$/;"	f	class:MsTimer2
+start	SoftI2cMaster.cpp	/^uint8_t SoftI2cMaster::start(uint8_t addressRW){$/;"	f	class:SoftI2cMaster
+startMotorsInSync	NXTMMX.cpp	/^bool NXTMMX::startMotorsInSync()$/;"	f	class:NXTMMX
+stop	MsTimer2.cpp	/^void MsTimer2::stop() {$/;"	f	class:MsTimer2
+stop	NXTMMX.cpp	/^bool NXTMMX::stop(uint8_t which_motors, uint8_t next_action)$/;"	f	class:NXTMMX
+stop	SoftI2cMaster.cpp	/^void SoftI2cMaster::stop(void){$/;"	f	class:SoftI2cMaster
+storeInitial	NXTServo.cpp	/^bool NXTServo::storeInitial()$/;"	f	class:NXTServo
+takeSnapshot	LineLeader.cpp	/^bool LineLeader::takeSnapshot()$/;"	f	class:LineLeader
+tcnt2	MsTimer2.cpp	/^volatile unsigned int MsTimer2::tcnt2;$/;"	m	class:MsTimer2	file:
+transmitData	NXTHID.cpp	/^bool NXTHID::transmitData()$/;"	f	class:NXTHID
+tx	AbsoluteIMU.h	/^	short  tx;$/;"	m	struct:accl
+ty	AbsoluteIMU.h	/^	short  ty;$/;"	m	struct:accl
+tz	AbsoluteIMU.h	/^	short  tz;$/;"	m	struct:accl
+waitForButtonPress	NXShield.cpp	/^void NXShield::waitForButtonPress(uint8_t btn, uint8_t led_pattern) {$/;"	f	class:NXShield
+waitPeriod	NumericPad.cpp	/^byte waitPeriod = 1;$/;"	v
+waitUntilTachoDone	NXTMMX.cpp	/^void NXTMMX::waitUntilTachoDone(uint8_t which_motors)$/;"	f	class:NXTMMX
+waitUntilTimeDone	NXTMMX.cpp	/^void NXTMMX::waitUntilTimeDone(uint8_t which_motors)$/;"	f	class:NXTMMX
+wakeUp	LineLeader.cpp	/^bool LineLeader::wakeUp()$/;"	f	class:LineLeader
+write	SoftI2cMaster.cpp	/^uint8_t SoftI2cMaster::write(uint8_t b){$/;"	f	class:SoftI2cMaster
+writeByte	BaseI2CDevice.cpp	/^bool BaseI2CDevice::writeByte(uint8_t location, uint8_t data)$/;"	f	class:BaseI2CDevice
+writeByte	NXShieldI2C.cpp	/^bool NXShieldI2C::writeByte  (uint8_t location, uint8_t data)$/;"	f	class:NXShieldI2C
+writeByte	SoftI2cMaster.cpp	/^bool SoftI2cMaster::writeByte  (uint8_t location, uint8_t data)$/;"	f	class:SoftI2cMaster
+writeByteToBuffer	BaseI2CDevice.h	/^inline void writeByteToBuffer(uint8_t* buf, int8_t data)$/;"	f
+writeByteToBuffer	BaseI2CDevice.h	/^inline void writeByteToBuffer(uint8_t* buf, uint8_t data)$/;"	f
+writeImageRegisters	NXTCam.cpp	/^bool NXTCam::writeImageRegisters()$/;"	f	class:NXTCam
+writeIntToBuffer	BaseI2CDevice.h	/^inline void writeIntToBuffer(uint8_t* buf, int16_t data)$/;"	f
+writeIntToBuffer	BaseI2CDevice.h	/^inline void writeIntToBuffer(uint8_t* buf, uint16_t data)$/;"	f
+writeInteger	BaseI2CDevice.cpp	/^bool BaseI2CDevice::writeInteger(uint8_t location, uint16_t data)$/;"	f	class:BaseI2CDevice
+writeInteger	NXShieldI2C.cpp	/^bool NXShieldI2C::writeInteger(uint8_t location, uint16_t data)$/;"	f	class:NXShieldI2C
+writeInteger	SoftI2cMaster.cpp	/^bool SoftI2cMaster::writeInteger(uint8_t location, uint16_t data)$/;"	f	class:SoftI2cMaster
+writeLong	BaseI2CDevice.cpp	/^bool BaseI2CDevice::writeLong(uint8_t location, uint32_t data)$/;"	f	class:BaseI2CDevice
+writeLong	NXShieldI2C.cpp	/^bool NXShieldI2C::writeLong  (uint8_t location, uint32_t data)$/;"	f	class:NXShieldI2C
+writeLong	SoftI2cMaster.cpp	/^bool SoftI2cMaster::writeLong  (uint8_t location, uint32_t data)$/;"	f	class:SoftI2cMaster
+writeLongToBuffer	BaseI2CDevice.h	/^inline void writeLongToBuffer(uint8_t* buf, int32_t data)$/;"	f
+writeLongToBuffer	BaseI2CDevice.h	/^inline void writeLongToBuffer(uint8_t* buf, uint32_t data)$/;"	f
+writeRegisters	BaseI2CDevice.cpp	/^bool BaseI2CDevice::writeRegisters($/;"	f	class:BaseI2CDevice
+writeRegisters	NXShieldI2C.cpp	/^bool NXShieldI2C::writeRegisters  (uint8_t start_register, uint8_t bytes_to_write, uint8_t* buffer)$/;"	f	class:NXShieldI2C
+writeRegisters	SoftI2cMaster.cpp	/^bool SoftI2cMaster::writeRegisters  (uint8_t location, uint8_t bytes_to_write,$/;"	f	class:SoftI2cMaster
+writeRegistersWithLocation	SoftI2cMaster.cpp	/^bool SoftI2cMaster::writeRegistersWithLocation(int bytes, uint8_t* buf){$/;"	f	class:SoftI2cMaster

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "rosserial_msgs")
+set(rosserial_msgs_MAINTAINER "Michael Ferguson <mferguson@willowgarage.com>")
+set(rosserial_msgs_DEPRECATED "")
+set(rosserial_msgs_VERSION "0.4.4")
+set(rosserial_msgs_BUILD_DEPENDS "message_generation")
+set(rosserial_msgs_RUN_DEPENDS "message_runtime")
+set(rosserial_msgs_BUILDTOOL_DEPENDS "catkin")

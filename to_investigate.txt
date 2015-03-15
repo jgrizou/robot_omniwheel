@@ -1,0 +1,5 @@
+programming over wireless:
+
+http://www.freetronics.com/pages/how-to-upload-a-sketch-to-your-arduino-via-a-network#.UXLhiIoW2Kk
+http://www.ladyada.net/make/xbee/arduino.html
+http://arduino.cc/forum/index.php/topic,12040.0.html

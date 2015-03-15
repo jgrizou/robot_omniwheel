@@ -1,0 +1,10 @@
+(cl:defpackage roslego-srv
+  (:use )
+  (:export
+   "BATTERY_VOLTAGE"
+   "<BATTERY_VOLTAGE-REQUEST>"
+   "BATTERY_VOLTAGE-REQUEST"
+   "<BATTERY_VOLTAGE-RESPONSE>"
+   "BATTERY_VOLTAGE-RESPONSE"
+  ))
+
