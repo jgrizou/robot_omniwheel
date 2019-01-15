@@ -8,7 +8,7 @@ I am using Lego for the structure, motors, and few sensors. An [Arduino mega](ht
 
 ## Videos
 
-- [Omniwheels robot making a square](https://www.youtube.com/watch?v=QA5YDpNemBs)
-- [Omniwheels robot making an octagon](https://www.youtube.com/watch?v=TJ0GHP1UyZs)
-- [Omniwheels robot making a big circle](https://www.youtube.com/watch?v=X_OtlW4fYc4)
-- [Omniwheels robot heading North](https://www.youtube.com/watch?v=QdeRQv6128g)
+- [Square displacement](https://www.youtube.com/watch?v=QA5YDpNemBs)
+- [Octagon displacement](https://www.youtube.com/watch?v=TJ0GHP1UyZs)
+- [Big circle displacement](https://www.youtube.com/watch?v=X_OtlW4fYc4)
+- [Keep Heading North](https://www.youtube.com/watch?v=QdeRQv6128g)
